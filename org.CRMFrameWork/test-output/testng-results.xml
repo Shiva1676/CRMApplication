@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2326" started-at="2019-09-08T20:37:40Z" finished-at="2019-09-08T20:37:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2326" started-at="2019-09-08T20:37:40Z" finished-at="2019-09-08T20:37:43Z">
+      <class name="demo.MouseHoverDemo">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:demo.MouseHoverDemo@1e88b3c]" name="setUpBrowser" is-config="true" duration-ms="8649" started-at="2019-09-09T02:07:32Z" finished-at="2019-09-09T02:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:demo.MouseHoverDemo@1e88b3c]" name="verifyLoginPage" duration-ms="2313" started-at="2019-09-09T02:07:40Z" finished-at="2019-09-09T02:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+      </class> <!-- demo.MouseHoverDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
