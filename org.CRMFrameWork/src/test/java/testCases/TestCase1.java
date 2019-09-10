@@ -58,6 +58,8 @@ public class TestCase1 extends BaseClass {
 		}
 
 		for (int i = 0; i < rows_Sheet2; i++) {
+			try{
+			
 			User user = userList.get(i);
 			ContactDetails contactDetails = contactDetailsList.get(i);
 //			System.out.println("loop userId : " + user.getUserId() + "loop passwored : " + user.getPassWord());
@@ -70,6 +72,9 @@ public class TestCase1 extends BaseClass {
 			System.out.println("firstName" + contactDetails.getFirstName() + " lastName : "
 					+ contactDetails.getLastName() + " emailId : " + contactDetails.getEmailId());
 			logout.logoutDetails();
+			} catch (Exception e) {
+				System.out.println("Username & password are credentials");
+			}
 		}
 
 	}

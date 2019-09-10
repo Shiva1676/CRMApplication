@@ -24,10 +24,10 @@ public class BaseClass {
 		driver = StartBrowser.getBrowser(ObjectFactory.getConfig().getBrowser(), ObjectFactory.getConfig().getURL());
 	}
 	
-	/*@AfterSuite
+	@AfterSuite
 	public void closeBrowser(){
 		
 		driver.quit();
 	}
-*/
+
 }
