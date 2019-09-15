@@ -53,9 +53,9 @@ public class TestCase2 extends BaseClass {
 			User user = new User();
 			if(i == 0) {
 				for(int j =0; j<columns_Sheet1; j++) {
-					if ("UserName".equalsIgnoreCase(ObjectFactory.getExcelInfo().getData("Sheet1", i, j))) {
+					if ("UserName".equalsIgnoreCase(ObjectFactory.getExcelInfo().getData("Sheet3", i, j))) {
 						userNameColoumn = j;
-					} else if ("Password".equalsIgnoreCase(ObjectFactory.getExcelInfo().getData("Sheet1", i, j))) {
+					} else if ("Password".equalsIgnoreCase(ObjectFactory.getExcelInfo().getData("Sheet3", i, j))) {
 						passWordColoumn = j;
 					}
 				}

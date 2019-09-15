@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.Parameters;
 
 /**
  * @author Lenovo
@@ -27,14 +28,14 @@ public class StartBrowser {
 		} else if (browser.equalsIgnoreCase("Firefox")) {
 
 			driver = new FirefoxDriver();
-			
+
 		} else if (browser.equalsIgnoreCase("IE")) {
 
 			driver = new InternetExplorerDriver();
 		}
 
-		System.out.println("The following browser is running on:"+ browser);
-		
+		System.out.println("The following browser is running on:" + browser);
+
 		driver.manage().window().maximize();
 
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);

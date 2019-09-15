@@ -45,7 +45,7 @@ public class ExcelDataProvider {
 
 		return rows;
 	}
-	
+
 	public int getColumnsCount(String sheetName) {
 
 		int columns = wb.getSheet(sheetName).getRow(0).getLastCellNum();
@@ -53,15 +53,15 @@ public class ExcelDataProvider {
 		return columns;
 	}
 
-	public String getData(String sheetName, int row, int column){
-		
+	public String getData(String sheetName, int row, int column) {
+
 		XSSFCell cell = wb.getSheet(sheetName).getRow(row).getCell(column);
-		
+
 		DataFormatter df = new DataFormatter();
-		
+
 		String data = df.formatCellValue(cell);
-		
+
 		return data;
 	}
-	
+
 }

@@ -56,6 +56,8 @@ public class LoginPage {
 		} catch (Exception e) {
 
 			System.out.println("Element not found and not able to login");
+			
+			driver.navigate().refresh();
 		}
 		
 		return status;
