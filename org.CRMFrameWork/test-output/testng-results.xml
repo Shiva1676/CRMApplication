@@ -2,41 +2,28 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2633" started-at="2019-09-15T17:47:00Z" finished-at="2019-09-15T17:47:03Z">
+  <suite name="Default suite" duration-ms="2970" started-at="2019-09-18T16:23:44Z" finished-at="2019-09-18T16:23:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2633" started-at="2019-09-15T17:47:00Z" finished-at="2019-09-15T17:47:03Z">
+    <test name="Default test" duration-ms="2970" started-at="2019-09-18T16:23:44Z" finished-at="2019-09-18T16:23:47Z">
       <class name="dataBaseTesting.ConnectMySQL">
-        <test-method status="FAIL" signature="testDB()[pri:0, instance:dataBaseTesting.ConnectMySQL@5e5792a0]" name="testDB" duration-ms="2616" started-at="2019-09-15T23:17:00Z" finished-at="2019-09-15T23:17:03Z">
-          <exception class="com.mysql.jdbc.exceptions.jdbc4.CommunicationsException">
+        <test-method status="FAIL" signature="testDB()[pri:0, instance:dataBaseTesting.ConnectMySQL@5e5792a0]" name="testDB" duration-ms="2927" started-at="2019-09-18T21:53:44Z" finished-at="2019-09-18T21:53:47Z">
+          <exception class="com.mysql.cj.jdbc.exceptions.CommunicationsException">
             <message>
               <![CDATA[Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.]]>
             </message>
             <full-stacktrace>
-              <![CDATA[com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+              <![CDATA[com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
-	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:981)
-	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2253)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2286)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2085)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at dataBaseTesting.ConnectMySQL.testDB(ConnectMySQL.java:23)
@@ -64,6 +51,22 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 30 more
 Caused by: java.net.UnknownHostException: hostname
 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
 	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
@@ -71,12 +74,12 @@ Caused by: java.net.UnknownHostException: hostname
 	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
 	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
 	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
-	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:188)
-	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
-	... 39 more
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 33 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException -->
+          </exception> <!-- com.mysql.cj.jdbc.exceptions.CommunicationsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDB -->
