@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30" started-at="2019-09-22T14:33:07Z" finished-at="2019-09-22T14:33:07Z">
+  <suite name="Default suite" duration-ms="72" started-at="2019-09-22T17:16:47Z" finished-at="2019-09-22T17:16:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30" started-at="2019-09-22T14:33:07Z" finished-at="2019-09-22T14:33:07Z">
-      <class name="dateFormatConcepts.Convert_UTC_time_zone">
-        <test-method status="PASS" signature="test()[pri:0, instance:dateFormatConcepts.Convert_UTC_time_zone@5e5792a0]" name="test" duration-ms="18" started-at="2019-09-22T20:03:07Z" finished-at="2019-09-22T20:03:07Z">
+    <test name="Default test" duration-ms="72" started-at="2019-09-22T17:16:47Z" finished-at="2019-09-22T17:16:47Z">
+      <class name="dateFormatConcepts.Date_Demo1">
+        <test-method status="PASS" signature="test()[pri:0, instance:dateFormatConcepts.Date_Demo1@5e5792a0]" name="test" duration-ms="59" started-at="2019-09-22T22:46:47Z" finished-at="2019-09-22T22:46:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- dateFormatConcepts.Convert_UTC_time_zone -->
+      </class> <!-- dateFormatConcepts.Date_Demo1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
