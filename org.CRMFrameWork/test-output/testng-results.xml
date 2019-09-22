@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="607" started-at="2019-09-22T06:01:55Z" finished-at="2019-09-22T06:01:55Z">
+  <suite name="Default suite" duration-ms="30" started-at="2019-09-22T14:33:07Z" finished-at="2019-09-22T14:33:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="607" started-at="2019-09-22T06:01:55Z" finished-at="2019-09-22T06:01:55Z">
-      <class name="dataBaseTesting.ConnectMySQL">
-        <test-method status="PASS" signature="testDB()[pri:0, instance:dataBaseTesting.ConnectMySQL@5e5792a0]" name="testDB" duration-ms="596" started-at="2019-09-22T11:31:55Z" finished-at="2019-09-22T11:31:55Z">
+    <test name="Default test" duration-ms="30" started-at="2019-09-22T14:33:07Z" finished-at="2019-09-22T14:33:07Z">
+      <class name="dateFormatConcepts.Convert_UTC_time_zone">
+        <test-method status="PASS" signature="test()[pri:0, instance:dateFormatConcepts.Convert_UTC_time_zone@5e5792a0]" name="test" duration-ms="18" started-at="2019-09-22T20:03:07Z" finished-at="2019-09-22T20:03:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDB -->
-      </class> <!-- dataBaseTesting.ConnectMySQL -->
+        </test-method> <!-- test -->
+      </class> <!-- dateFormatConcepts.Convert_UTC_time_zone -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
