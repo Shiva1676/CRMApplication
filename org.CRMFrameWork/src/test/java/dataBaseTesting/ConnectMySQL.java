@@ -20,7 +20,7 @@ public class ConnectMySQL {
 
 		System.out.println("Driver loaded");
 
-		Connection con = DriverManager.getConnection("jdbc:mysql://hostname:3306/orangeHRM", "root", "Mohan");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/orangeHRM", "root", "Mohan");
 
 		System.out.println("Connected to MYSQL DB");
 
