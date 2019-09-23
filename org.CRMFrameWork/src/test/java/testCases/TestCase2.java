@@ -6,20 +6,15 @@ package testCases;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-import dataProviderFactory.ExcelDataProvider;
 import dataProviderFactory.ObjectFactory;
 import pages.ContactDetails;
 import pages.ContactPage;
 import pages.LogOutPage;
 import pages.LoginPage;
 import pages.User;
-import utility.Helper;
 
 /**
  * @author Lenovo
