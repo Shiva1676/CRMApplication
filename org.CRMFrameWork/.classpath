@@ -32,5 +32,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/Selenium_Setup/Sikuli/sikulix.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/Selenium_Setup/Sikuli/sikulixapi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/Selenium_Setup/Sikuli/sikulixjython.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/Selenium_Setup/Sikuli/sikulixlibswin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/Selenium_Setup/Sikuli/sikulixsetup-1.1.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
