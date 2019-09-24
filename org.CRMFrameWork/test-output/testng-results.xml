@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9580" started-at="2019-09-24T16:59:46Z" finished-at="2019-09-24T16:59:56Z">
+  <suite name="Default suite" duration-ms="34" started-at="2019-09-24T17:53:33Z" finished-at="2019-09-24T17:53:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9580" started-at="2019-09-24T16:59:46Z" finished-at="2019-09-24T16:59:56Z">
-      <class name="dateFormatConcepts.CurrentDay_Demo">
-        <test-method status="PASS" signature="currentDateTest()[pri:0, instance:dateFormatConcepts.CurrentDay_Demo@5c3bd550]" name="currentDateTest" duration-ms="9556" started-at="2019-09-24T22:29:46Z" finished-at="2019-09-24T22:29:56Z">
+    <test name="Default test" duration-ms="34" started-at="2019-09-24T17:53:33Z" finished-at="2019-09-24T17:53:33Z">
+      <class name="dateFormatConcepts.AddingDateToCurrentDate">
+        <test-method status="PASS" signature="currentdateTest()[pri:0, instance:dateFormatConcepts.AddingDateToCurrentDate@66a3ffec]" name="currentdateTest" duration-ms="20" started-at="2019-09-24T23:23:33Z" finished-at="2019-09-24T23:23:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- currentDateTest -->
-      </class> <!-- dateFormatConcepts.CurrentDay_Demo -->
+        </test-method> <!-- currentdateTest -->
+      </class> <!-- dateFormatConcepts.AddingDateToCurrentDate -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
