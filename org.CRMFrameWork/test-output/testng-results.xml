@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2869" started-at="2019-09-23T02:54:03Z" finished-at="2019-09-23T02:54:06Z">
+  <suite name="Default suite" duration-ms="9580" started-at="2019-09-24T16:59:46Z" finished-at="2019-09-24T16:59:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2869" started-at="2019-09-23T02:54:03Z" finished-at="2019-09-23T02:54:06Z">
-      <class name="basics.Sikuli_Demo1">
-        <test-method status="PASS" signature="test()[pri:0, instance:basics.Sikuli_Demo1@5c3bd550]" name="test" duration-ms="2847" started-at="2019-09-23T08:24:03Z" finished-at="2019-09-23T08:24:06Z">
+    <test name="Default test" duration-ms="9580" started-at="2019-09-24T16:59:46Z" finished-at="2019-09-24T16:59:56Z">
+      <class name="dateFormatConcepts.CurrentDay_Demo">
+        <test-method status="PASS" signature="currentDateTest()[pri:0, instance:dateFormatConcepts.CurrentDay_Demo@5c3bd550]" name="currentDateTest" duration-ms="9556" started-at="2019-09-24T22:29:46Z" finished-at="2019-09-24T22:29:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- basics.Sikuli_Demo1 -->
+        </test-method> <!-- currentDateTest -->
+      </class> <!-- dateFormatConcepts.CurrentDay_Demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
